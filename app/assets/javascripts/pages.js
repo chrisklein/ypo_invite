@@ -81,7 +81,7 @@
 				var card_view = new CardView({ model: card })     
 				$(this).append( card_view.render().el )       	
 				})
-			
+			this.end_game()
 			},
 			
 		check_count: function(){
@@ -111,17 +111,19 @@
 			var markup = '<div id="invitation">'
 						    + '<div>'
 						 	   + '<h3>Congratulations!!</h3>'
-						       + '<p>You are “qualified” to attend the January Chapter event. The details follow:</p>'
-						       + '<p><strong>YPO Colorado Chapter presents....</strong></p>'
+						       + '<p>You are “qualified” to attend the January Chapter event.</p>'
 						       + '<br>'
 						       + '<hr>'
 							   + '<article class="vevent">'
 							       + '<section class="summary">'
 							           + '<h4>Beyond Boundaries</h4>'
-							           + '<p>Stretching your limits of memory</p>'
+							           + '<p style="padding-bottom: 7px;">Stretching your limits of memory<p>'
+							           + '<p><em>with Ron White</em></p>'
+							           + '<p><em>U.S.A. Memory Champion & Memory Record Holder</em></p>'
 							       + '</section>'
 							       + '<section class="description">'
-							       	   + '<br>'
+									   + '<br>'
+								       + '<p><strong>Cocktails, Dinner and Speaker</strong></p>'
 								       + '<p>Thursday, January 19</p>'
 								       + '<p>5PM to 9PM</p>'
 								       + '<br>'
@@ -135,7 +137,7 @@
 								       + '<a class="email" href="mailto:cstack_ypo@hotmail.com">cstack_ypo@hotmail.com</a>'
 								   	   + '<br>'
 								       + '<br>'
-								       + '<p>Day Chairs:</p>'
+								       + '<p><strong>Day Chairs:</strong></p>'
 								       + '<p>Steven and Bonnie List</p>'
 								       + '<p>Anthony and Nichole Montoya</p>'
 								   + '</section>'
