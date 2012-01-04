@@ -6,7 +6,9 @@
 
 .container{width: 780px !important;}
 
-#cards-wrapper{ position:relative; width: 780px !important;
+header, footer{padding-left:20px !important; padding-right: 20px !important;}
+
+#cards-wrapper{ position:relative; width: 780px !important; padding: 25px 0px 30px 0px !important;
 
 .columns{ padding: 10px; height: 220px; width: 220px;
 	
@@ -27,15 +29,10 @@
 }}
 
 #invitation{ position:relative; margin: auto !important; margin-top: 30px !important; overflow:auto;
-			 -webkit-border-radius: 5px !important; -moz-border-radius: 5px !important; border-radius: 5px;
-			 background-color: #f0f0f0;
-	
-	span{ display: block; height: 85px; font-size: 1.7em; margin: 30px 0px 0px 0px; padding: 15px; background-color: #ffffff;
-		  -webkit-border-radius: 5px !important; -moz-border-radius: 5px !important; border-radius: 5px; margin-top:25px;}
-	
-	.stoogies{ height: 150px; background-image: url('Stoogelogo.png'); background-repeat:no-repeat; margin: 30px 0px 0px 15px; 
-			   background-color: transparent;}
-	.button{font-size: 1.5em; padding-top: 15px; padding-bottom: 15px;}		
+			 background-color: #f8f8f8; padding: 30px; text-align: center !important;
+			 -webkit-box-shadow: 1px 2px 7px #A0A0A0 !important;
+			 -moz-box-shadow: 1px 2px 7px #A0A0A0 !important;
+			 box-shadow: 1px 2px 7px #A0A0A0 !important;
 
 }
 

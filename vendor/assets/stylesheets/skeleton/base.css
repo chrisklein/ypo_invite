@@ -75,7 +75,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; }
+	p { margin: 0 0 7px 0; color: #383838; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -95,8 +95,8 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
-	a:hover, a:focus { color: #000; }
+	a, a:visited { color: #0069d6; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #00438a; }
 	p a, p a:visited { line-height: inherit; }
 
 
