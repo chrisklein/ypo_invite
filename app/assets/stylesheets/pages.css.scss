@@ -6,27 +6,27 @@
 
 .container{width: 780px !important;}
 
-#cards-wrapper{ position:relative; width: 780px !important;}
+#cards-wrapper{ position:relative; width: 780px !important;
 
 .columns{ padding: 10px; height: 220px; width: 220px;
 	
 	div {background-color: #f0f0f0; height: 200px; width: 200px; cursor:pointer; padding:20px;
 		 -webkit-border-radius: 4px !important; -moz-border-radius: 4px !important; border-radius: 3px;
-		 -webkit-box-shadow: 2px 2px 2px #A0A0A0 !important;
-		 -moz-box-shadow: 2px 2px 2px #A0A0A0 !important;
-		 box-shadow: 2px 2px 2px #A0A0A0 !important;
+		 -webkit-box-shadow: 2px 2px 7px #A0A0A0 !important;
+		 -moz-box-shadow: 2px 2px 7px #A0A0A0 !important;
+		 box-shadow: 2px 2px 7px #A0A0A0 !important;
 	
 		span{ position: relative; display: block; height: 100%; width: 100%; background-color: transparent; }
 		
 		.card-back{  background-image: url('Seamles-Blue-23.jpg') }
-		.moe{  background-image: url('moe200.png') }
-		.curly{  background-image: url('curly200.png'); background-repeat:no-repeat; }
-		.larry{  background-image: url('larry200.png'); background-repeat:no-repeat; }
+		.brain{  background-image: url('brain.png') }
+		.chapter{  background-image: url('chapter.png'); background-repeat:no-repeat; }
+		.logo{  background-image: url('logo.png'); background-repeat:no-repeat; }
 	}
 	
-}
+}}
 
-#invitation{ position:relative; margin: auto !important; margin-top: 100px !important; overflow:auto;
+#invitation{ position:relative; margin: auto !important; margin-top: 30px !important; overflow:auto;
 			 -webkit-border-radius: 5px !important; -moz-border-radius: 5px !important; border-radius: 5px;
 			 background-color: #f0f0f0;
 	
