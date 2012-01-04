@@ -81,7 +81,6 @@
 				var card_view = new CardView({ model: card })     
 				$(this).append( card_view.render().el )       	
 				})
-			this.end_game()
 			},
 			
 		check_count: function(){
