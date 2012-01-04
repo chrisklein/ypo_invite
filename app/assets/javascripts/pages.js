@@ -125,7 +125,7 @@
 								       + '<p>Thursday, January 19</p>'
 								       + '<p>5PM to 9PM</p>'
 								       + '<br>'
-								       + '<p>Glenmoor Country Club</p>'
+								       + '<p><strong>Glenmoor Country Club</strong></p>'
 								       + '<p>110 Glenmoor Drive</p>'
 								       + '<p>Cherry Hills Village, CO 80113</p>'
 									   + '<br>'
