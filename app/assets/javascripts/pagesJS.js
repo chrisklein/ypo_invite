@@ -115,7 +115,7 @@
 // 							   + '<a href="#" class="full-width button">Join Us</a>'
 // 						     + '</div>'
 // 					   +'</div>'	
-// 					
+// 			
 // 			$('#cards-wrapper').empty().append(markup)
 // 			}
 // 	});	
