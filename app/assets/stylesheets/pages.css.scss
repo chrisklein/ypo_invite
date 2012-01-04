@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+div#game-wrapper{ padding-top: 30px !important; }
+
 .container{width: 780px !important;}
 
 header, footer{padding-left:20px !important; padding-right: 20px !important;}
